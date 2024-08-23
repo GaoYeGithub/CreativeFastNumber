@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool OS</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="desktop">
+    <div id="topbar">
+      <div id="date"></div>
+      <div id="music-player">
+        <audio id="audio" src="background.mp3"></audio>
+        <button id="play-pause">Play</button>
+      </div>
+      <div id="clock"></div>
+    </div>
+    <div id="app-dock">
+      <div class="app-icon" data-app="contact">
+        <img src="https://cdn-icons-png.flaticon.com/512/1250/1250592.png" alt="Contact">
+        <span>Contact</span>
+      </div>
+      <div class="app-icon" data-app="projects">
+        <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="About Me">
+        <span>About Me</span>
+      </div>
+      <div class="app-icon" data-app="map">
+        <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Map">
+        <span>Map</span>
+      </div>
+      <div class="app-icon" data-app="weather">
+        <img src="https://cdn-icons-png.flaticon.com/512/4052/4052984.png" alt="Weather">
+        <span>Weather</span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
